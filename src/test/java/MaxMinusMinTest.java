@@ -61,11 +61,11 @@ public class MaxMinusMinTest {
     @Test
     public void maxMinTest4(){
         List<Integer> input = new ArrayList<>();
-        input.add(0);
-        input.add(0);
-        input.add(0);
-        input.add(0);
-        input.add(0);
+        input.add(1);
+        input.add(1);
+        input.add(1);
+        input.add(1);
+        input.add(1);
         int expected = 0;
         int actual = mmm.difference(input);
         Assert.assertEquals(expected,actual);
